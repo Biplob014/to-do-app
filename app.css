@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+body {
+  background-color: gray;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #333;
+  padding: 1.5rem;
+
+  color: #fff;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  overflow: auto;
+  border-radius: 0.6rem;
+  min-height: 60vh;
+  width: 25%;
+}
+input,
+.btn {
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.6rem;
+  font-size: 1.5rem;
+}
+input {
+  width: 60%;
+  margin-top: 2rem;
+}
+.btn {
+  background-color: orange;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s;
+  width: 30%;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.li-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  color: white;
+  border-radius: 0.6rem;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  transition: all 0.5s;
+}
+
+.li-style:hover {
+  background-color: #111;
+}
+
+.bg-success {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  color: black;
+  background-color: #ddffdd;
+  border-left: 6px solid #04aa6d;
+}
+
+.bg-danger {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  color: black;
+  background-color: #ffddff;
+  border-left: 6px solid #f44336;
+}
