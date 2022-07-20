@@ -30,13 +30,10 @@ const deletetodo = (event) => {
 
   // deleting from localStorage
   let todos = responseFromLs();
-  todos = todos.filter((todo) => {
-    todo.id !== selectedtodo.id;
-  });
+  todos = todos.filter((todo) => todo.id !== selectedtodo.id);
   localStorage.setItem("mytodo", JSON.stringify(todos));
 };
 
-//////////////////////////////
 // showmessage()
 const showmessage = (text, status) => {
   message.textContent = `${text}`;
