@@ -12,7 +12,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  background-color: gray;
+  background-color: #333;
 }
 
 .card {
@@ -20,9 +20,8 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #333;
+  background-color: #222;
   padding: 1.5rem;
-
   color: #fff;
   padding: 1.5rem;
   font-size: 1.5rem;
@@ -60,7 +59,7 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #222;
+  background-color: #444;
   color: white;
   border-radius: 0.6rem;
   padding: 0.5rem;
